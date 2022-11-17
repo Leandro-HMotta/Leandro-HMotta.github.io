@@ -1,7 +1,7 @@
-body {font-family: 'Lato', sans-serif;}
-
-body { background-color:rgba(87, 74, 90, 0.226) ;
-
-
-
+body {background-color: rgb(232, 233, 233);}
+h3{font-size: 20px;
+    color:rgb(41, 3, 110);
+font-style:inherit ;
 }
+
+.style-p{font-size: 16px;}
