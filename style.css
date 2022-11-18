@@ -13,6 +13,7 @@ color: rgb(85, 121, 32);}
 display: block;
 margin-left: auto;
 margin-right: auto;
+border-radius: 30%;
 }
 
 #word-size{font-size: 18px;
