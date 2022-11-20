@@ -1,16 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(232, 233, 233);
-}
 h3 {
   font-size: 20px;
   color: rgb(41, 3, 110);
   font-style: inherit;
+}
+
+.list-unk {
+  list-style: none;
 }
 
 .style-p {
@@ -20,6 +21,11 @@ h3 {
 .decoration {
   text-decoration: none;
   color: rgb(85, 121, 32);
+}
+
+.decoration:hover {
+  text-decoration: none;
+  color: rgb(85, 121, 32, 0.5);
 }
 
 .image-px {
@@ -35,18 +41,20 @@ h3 {
   width: 15px;
 }
 
-#left-perfil {
-  flex: 1 1 20%;
-  background-color: aquamarine;
-  padding: 30px 12px;
-  min-height: 100vh;
-  border-right: 5px #eb15e7;
-  text-align: center;
-}
-
 #full-profile {
   display: flex;
   flex-direction: row;
+}
+
+#left-perfil {
+  flex: 1 1 20%;
+  background-color: rgb(223, 221, 211);
+  padding: 30px 12px;
+  min-height: 100vh;
+  border-right: 6px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  text-align: center;
 }
 
 #sectin-profile {
@@ -56,19 +64,30 @@ h3 {
   background-color: #eb15e7;
 }
 
-@media (max-width: 600px)
-{
-  #sectin-profile{
-    background-color:darkorchid
-    }
+.social-media {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
-.social-media-link{
-    text-decoration: none;
-    }
-.social-media{
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+
+.social-media-link {
+  text-decoration: none;
+}
+
+.github {
+  color: rgb(33, 33, 33);
+}
+
+.github:hover {
+  color: rgba(33, 33, 33, 0.5);
+}
+
+.linkedin {
+  color: rgb(10, 102, 194);
+}
+
+.linkedin:hover {
+  color: rgba(10, 102, 194, 0.5);
 }
