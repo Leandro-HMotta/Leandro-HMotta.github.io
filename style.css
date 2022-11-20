@@ -1,21 +1,74 @@
-body {background-color: rgb(232, 233, 233);}
-h3{font-size: 20px;
-    color:rgb(41, 3, 110);
-font-style:inherit ;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.style-p{font-size: 16px;}
-
-.decoration{text-decoration:none;
-color: rgb(85, 121, 32);}
-
-.image-px{width: 200px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius: 30%;
+body {
+  background-color: rgb(232, 233, 233);
+}
+h3 {
+  font-size: 20px;
+  color: rgb(41, 3, 110);
+  font-style: inherit;
 }
 
-#word-size{font-size: 18px;
-    ;}
-.logo-size{width: 15px;} 
+.style-p {
+  font-size: 16px;
+}
+
+.decoration {
+  text-decoration: none;
+  color: rgb(85, 121, 32);
+}
+
+.image-px {
+  width: 200px;
+
+  border-radius: 30%;
+}
+
+#word-size {
+  font-size: 18px;
+}
+.logo-size {
+  width: 15px;
+}
+
+#left-perfil {
+  flex: 1 1 20%;
+  background-color: aquamarine;
+  padding: 30px 12px;
+  min-height: 100vh;
+  border-right: 5px #eb15e7;
+  text-align: center;
+}
+
+#full-profile {
+  display: flex;
+  flex-direction: row;
+}
+
+#sectin-profile {
+  flex: 1 1 80%;
+  min-height: 100vh;
+  padding: 50px;
+  background-color: #eb15e7;
+}
+
+@media (max-width: 600px)
+{
+  #sectin-profile{
+    background-color:darkorchid
+    }
+}
+.social-media-link{
+    text-decoration: none;
+    }
+.social-media{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
