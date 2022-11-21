@@ -28,14 +28,14 @@ h3 {
   color: rgb(85, 121, 32, 0.5);
 }
 
-.image-px {
+#image-px {
   width: 200px;
-
   border-radius: 30%;
 }
 
 #word-size {
   font-size: 18px;
+  text-decoration: none;
 }
 .logo-size {
   width: 15px;
@@ -48,12 +48,12 @@ h3 {
 
 #left-perfil {
   flex: 1 1 20%;
-  background-color: rgb(223, 221, 211);
+  background-color: #344e41;
   padding: 30px 12px;
   min-height: 100vh;
   border-right: 6px;
   border-style: solid;
-  border-color: rgb(0, 0, 0);
+  border-color: #588157;
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ h3 {
   flex: 1 1 80%;
   min-height: 100vh;
   padding: 50px;
-  background-color: #eb15e7;
+  background-color: #dad7cd;
 }
 
 .social-media {
